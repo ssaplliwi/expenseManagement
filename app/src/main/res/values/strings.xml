@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">project</string>
+    <string name="ov_monthlyBudget">Ngân sách tháng này</string>
+    <string name="ov_spentAmountText">Đã chi tiêu</string>
 </resources>
