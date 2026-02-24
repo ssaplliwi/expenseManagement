@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
     android:id="@+id/overview_fragment">
     <TextView
         android:id="@+id/ov_tv_header"
@@ -138,7 +143,7 @@
         android:layout_height="wrap_content"
         android:text = "Còn lại"
         android:textSize="20dp"
-        android:textBold="bold"
+        android:textStyle="bold"
         android:textColor="#000000"
         app:layout_constraintTop_toTopOf="@id/ov_view_divider"
         app:layout_constraintStart_toStartOf="@id/ov_ic_budget"
@@ -692,4 +697,5 @@
 
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_overview">
+
+    <fragment android:id="@+id/nav_overview"
+        android:name="com.example.project.ui.overview.OverviewFragment"/>
+    <fragment android:id="@+id/nav_statistics"
+        android:name="com.example.project.ui.statistic.StatisticFragment" />
+    <fragment android:id="@+id/nav_add"
+        android:name="com.example.project.ui.add.AddFragment" />
+    <fragment android:id="@+id/nav_settings"
+        android:name="com.example.project.ui.settings.SettingsFragment" />
+</navigation>
